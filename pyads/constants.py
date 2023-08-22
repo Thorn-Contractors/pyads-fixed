@@ -125,7 +125,7 @@ ADST_WSTRING: int = 31
 ADST_REAL80: int = 32
 ADST_BIT: int = 33
 ADST_MAXTYPES: int = 34
-
+ADST_TIME: int = 65
 
 ads_type_to_ctype = {
     # ADST_VOID
@@ -144,6 +144,7 @@ ads_type_to_ctype = {
     ADST_WSTRING: PLCTYPE_WSTRING,
     # ADST_REAL80
     ADST_BIT: PLCTYPE_BOOL,
+    ADST_TIME: PLCTYPE_TIME
 }
 
 
